@@ -1,6 +1,5 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import Linkedin from '../../assets/img/linkedin.png'
 
 function Footer() {
   return (

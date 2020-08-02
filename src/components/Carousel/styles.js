@@ -50,7 +50,7 @@ export const VideoCardList = styled.ul`
 
 &::-webkit-scrollbar {width: 3px; height: 3px;  background:#141414; } /* configurando scroll */
 &::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
-&::-webkit-scrollbar-thumb { border-radius:10px; background:var(--primary);  }
+&::-webkit-scrollbar-thumb { border-radius:10px; background:var(--blackLighter);  }
 
 `;
 

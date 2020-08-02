@@ -13,12 +13,12 @@ const Button = styled.button`
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity .3s;  
+    /* transition: opacity .3s;  
     &:hover,
     &:focus {
         background: #7F1C64;
         opacity: .5;
-    }
+    } */
 `;
 
 export default Button;

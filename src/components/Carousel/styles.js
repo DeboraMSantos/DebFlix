@@ -15,11 +15,13 @@ export const Title = styled.h3`
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
+    max-width: 150px;
   }
 `;
 
 export const ExtraLink = styled.a`
-  margin-left: 16px;
+  margin-left: 20px;
+  font-size: 25px;
   text-decoration: none;
   transition: opacity .3s;
   &:hover,
@@ -27,9 +29,9 @@ export const ExtraLink = styled.a`
     opacity: .5;
   }
   @media (max-width: 800px) {
-    display: block;
-    margin-bottom: 16px;
-    margin-left: 0;
+    display: inline;
+    font-size: 15px;
+    margin-left: 20px;
   }
 `;
 

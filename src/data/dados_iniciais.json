@@ -5,17 +5,26 @@
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#7F1C64",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Formação de Front End",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
-      "videos": [
+      "videos": [              
         {
-          "titulo": "O que faz uma Dev Front-End? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-        },
+          "titulo": "Recriando Pipefy do zero (com drag n' drop) | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=awRtgpRsdTQ"
+        }, 
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Iniciando no ReactJS | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=7A4UQGrFU9Q&list=PL85ITvJ7FLoiuaKgHFYgrhZDwXOUEaxWI"
+        },  
+        {
+          "titulo": "Recriando a Interface do Discord com ReactJS | UI Clone",
+          "url": "https://www.youtube.com/watch?v=x4FdZd2-_uU"
+        },        
+
+        {
+          "titulo": "Desvendando o Redux na prática | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=u99tNt3TZf8"
         },
         {
           "titulo": "Componentização com VanillaJS #AluraMais",
@@ -36,6 +45,10 @@
         {
           "titulo": "Novidades do Angular v9",
           "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "titulo": "O que faz uma Dev Front-End?",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
         },
         {
           "titulo": "Base para aprender os frameworks",
@@ -74,10 +87,10 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Data Science e I.A.",
       "cor": "#7F1C64",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
+        "text": "Cursos de Data Science",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
@@ -102,7 +115,19 @@
     {
       "titulo": "Filmes",
       "cor": "#7F1C64",
+      "link_extra": {
+        "text": "Trailers e Filmes"
+      },
       "videos": [
+
+        {
+          "titulo": "Superação O Milagre da Fé",
+          "url": "https://www.youtube.com/watch?v=o2bX_c97GSI&list=PLagf6TntF3aoHdZKnw3VaUhpjQh6Tib_j"
+        },
+        {
+          "titulo": "Cartas para DEUS",
+          "url": "https://www.youtube.com/watch?v=b_zRq-O9rYs"
+        },        
         {
           "titulo": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
@@ -125,7 +150,7 @@
       "titulo": "Games",
       "cor": "#7F1C64",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "Formação de Jogos",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
@@ -152,10 +177,10 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Como aprender tecnologia",
       "cor": "#7F1C64",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "Curso sobre aprendizado",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [

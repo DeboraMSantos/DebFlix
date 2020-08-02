@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
-
+//import DebInternet from '../../assets/img/debinternet.jpg'
 function getYouTubeId(youtubeURL) {
   return youtubeURL
     .replace(
@@ -17,6 +17,7 @@ export default function BannerMain({
 }) {
   const youTubeID = getYouTubeId(url);
   const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>

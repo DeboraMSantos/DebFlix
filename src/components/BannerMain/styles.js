@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
+  padding-top: 100px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -10,7 +11,7 @@ export const ContentAreaContainer = styled.section`
   position: relative;
   z-index: 10;
   @media (max-width: 800px) {
-    padding-top: 100px;
+    padding-top: 150px;
     flex-direction: column;
   }
 `;

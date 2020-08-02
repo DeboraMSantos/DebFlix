@@ -2,13 +2,35 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/Home';
+import PageDefault  from './components/PageDefault';
 
 import { BrowserRouter,  Switch,  Route } from 'react-router-dom'
 
 import CadastroVideo from './pages/cadastro/Video'
 import CadastroCategoria from './pages/cadastro/Categoria'
 
-const Pagina404 = () => (<div>Erro 404</div>)
+const Pagina404 = () => (
+  <PageDefault>
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+    <h1>404 Ops, quebrou tudo :O</h1>
+    <p>
+      Você pode jogar, <a href="/">voltar pra home :)</a> ou <a href="https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej">aprender a fazer o jogo</a>
+ 
+    </p>
+ 
+    {/*
+      Pessoal, quem quiser fazer o desafio do Flappy Bird, da pra usar esse iframe aqui: 
+      - https://codepen.io/omariosouto/pen/pogmdGE
+      E quem quiser programar o jogo:
+      - https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej
+    */}
+    <iframe
+      title="Flappy Bird Game"
+      src="https://mariosouto.com/flappy-bird-devsoutinho/"
+      width="800"
+      height="600" />
+  </div></PageDefault>
+)
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

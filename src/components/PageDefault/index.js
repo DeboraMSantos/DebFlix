@@ -8,8 +8,6 @@ const Main = styled.main`
   color: var(--white);
   flex: 1;
   padding: 100px 5%;
-  /* padding-left: 5%;
-  padding-right: 5%; */
 `;
 
 

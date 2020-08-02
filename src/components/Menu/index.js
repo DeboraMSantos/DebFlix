@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png'
 import {LogoImage, MenuWrapper, ButtonLink} from './style.js'
-import { Link } from 'react-router-dom';
+
 
 
 function Menu() {

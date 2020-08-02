@@ -12,17 +12,18 @@ const Container = styled.ul`
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
+    opacity: .5;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 80px;
     }
   }
   
   .slick-prev {
     left: 0;
-  }
+   }
   .slick-next {
     right: 16px;
   }

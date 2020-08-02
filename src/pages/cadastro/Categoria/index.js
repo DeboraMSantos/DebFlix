@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import { ButtonLink } from '../../../components/Menu/style';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '#7F1C64',
   };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
@@ -72,7 +74,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="????"
           name="descricao"
           value={values.descricao}
@@ -109,21 +111,21 @@ function CadastroCategoria() {
           </label>
         </div> */}
 
-        <button type="submit">
+        <Button type="submit">
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.id}`}>
-            {categoria.titulo}
+           {categoria.titulo}
           </li>
         ))}
       </ul>
 
       <Link to="/">
-        Ir para home
+        Voltar para home
       </Link>
     </PageDefault>
   );

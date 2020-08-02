@@ -48,9 +48,9 @@ export const VideoCardList = styled.ul`
     margin-right: 16px;
   }
 
-&::-webkit-scrollbar {width: 3px; height: 3px;  background:#141414; } /* configurando scroll */
+/* &::-webkit-scrollbar {width: 3px; height: 3px;  background:#141414; } 
 &::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
-&::-webkit-scrollbar-thumb { border-radius:10px; background:var(--blackLighter);  }
+&::-webkit-scrollbar-thumb { border-radius:10px; background:var(--blackLighter);  } */
 
 `;
 

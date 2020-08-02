@@ -14,12 +14,13 @@ function Home() {
     <HomeWrapper>
       <Menu />
 
-      <BannerMain
+      <BannerMain 
         url={dadosIniciais.categorias[0].videos[0].url}
       />
 
       {dadosIniciais.categorias.map((cat) =>
-        cat.titulo === "Front End" ? <Carousel ignoreFirstVideo category={cat} /> : <Carousel category={cat} />
+        cat.titulo === "Front End" ? 
+        <Carousel key={cat.titulo} ignoreFirstVideo category={cat} /> : <Carousel key={cat.titulo} category={cat} />
       )}
 
       <Footer />

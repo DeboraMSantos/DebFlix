@@ -18,9 +18,11 @@ function Home() {
         url={dadosIniciais.categorias[0].videos[0].url}
       />
 
-      {dadosIniciais.categorias.map((cat) =>
-        cat.titulo === "Front End" ? 
-        <Carousel key={cat.titulo} ignoreFirstVideo category={cat} /> : <Carousel key={cat.titulo} category={cat} />
+      {dadosIniciais.categorias.map((cat, i) =>
+        i === 1 ? 
+       
+        <Carousel key={i} ignoreFirstVideo category={cat} /> : <Carousel key={i} category={cat} />
+
       )}
 
       <Footer />

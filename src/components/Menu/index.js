@@ -1,15 +1,16 @@
 import React from 'react';
 import Logo from '../../assets/img/logo.png'
 import {LogoImage, MenuWrapper, ButtonLink} from './style.js'
+import { Link } from 'react-router-dom';
 
 
 function Menu() {
     return (
     <MenuWrapper className="Menu">
-        <a href="/">
+        <Link to="/">
             <LogoImage src={Logo} alt="Debflix Logo" />
-        </a>
-        <ButtonLink as="a" href="/">
+        </Link>
+        <ButtonLink as={Link} to="/cadastro/video">
             Novo Vídeo
         </ButtonLink>
     </MenuWrapper>);

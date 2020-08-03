@@ -21,7 +21,7 @@ export const Title = styled.h3`
 
 export const ExtraLink = styled.a`
   margin-left: 20px;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   transition: opacity .3s;
   &:hover,

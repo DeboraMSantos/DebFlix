@@ -4,10 +4,10 @@
       "titulo": " ",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#7F1C64",
-      "image": "http://localhost:3000/static/media/nerd.2a6111bb.gif",
+      "image": "http://localhost:3000/static/media/nerd.9814d62b.png",
       "link_extra": {
         "text": "Momento Nerd",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": ""
       },
       "videos": [              
         {
@@ -60,10 +60,10 @@
     {
       "titulo": " ",
       "cor": "#000c2c",
-      "image": "https://dmsdebflix.vercel.app/static/media/husky2.4ff8b23d.gif",
+      "image": "http://localhost:3000/static/media/animal.02447de9.png",
       "link_extra": {
         "text": "Fofuras de Animais",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "url": ""
       },
       "videos": [
         {
@@ -85,35 +85,40 @@
       ]
     },
     {
-      "titulo": "Data Science e I.A.",
+      "titulo": " ",
       "cor": "#7F1C64",
+      "image": "http://localhost:3000/static/media/jogo.6fff7b97.png",
       "link_extra": {
-        "text": "Cursos de Data Science",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Games",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Alex Kidd Remake",
+          "url": "https://www.youtube.com/watch?v=QdFLB2cZ92Q"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Audition",
+          "url": "https://youtu.be/lIHY67K8JxU"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Mario Kart",
+          "url": "https://www.youtube.com/watch?v=qktchbR-EX4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Pato Donald",
+          "url": "https://www.youtube.com/watch?v=_6z_2K-aWt0"
+        },
+        {
+          "titulo": "Mickey Mouse",
+          "url": "https://www.youtube.com/watch?v=u_YuJtVZV7k"
         }
       ]
     },
     {
       "titulo": " ",
       "cor": "#000c2c",
-      "image": "data:image/gif;base64,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",
+      "image": "http://localhost:3000/static/media/filme.ff4b508d.png",
       "link_extra": {
         "text": "Trailers e Filmes"
       },
@@ -144,66 +149,7 @@
           "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
         }
       ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "#7F1C64",
-      "link_extra": {
-        "text": "Formação de Jogos",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Como aprender tecnologia",
-      "cor": "#000c2c",
-      "link_extra": {
-        "text": "Curso sobre aprendizado",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-      ]
     }
+    
   ]
 }

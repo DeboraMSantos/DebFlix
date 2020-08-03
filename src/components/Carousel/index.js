@@ -19,7 +19,7 @@ function Carousel({
         <>
         
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
-          <img alt="icone categoria" style={{ height: 35 }} src={categoryImage} />
+          <img alt="icone categoria" style={{ height: 80 }} src={categoryImage} />
             {categoryTitle}
        
           </Title>

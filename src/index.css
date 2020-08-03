@@ -6,7 +6,7 @@
 :root {
   --primary: #7F1C64;
   --black: #000000;
-  --blackMedium: #000c2c;  
+   --blackMedium: #000e2c;  /*  #000e2c;    #1E1E1E; #000505;*/
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 

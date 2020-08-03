@@ -1,23 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
-import styled from 'styled-components';
 
 const Main = styled.main`
-  background-color: var(--black);
+  background-color: var(--grayDark);
+  background-image: url('https://giphy.com/gifs/3ohzdJXMNniu9q65JS');
   color: var(--white);
   flex: 1;
   padding: 100px 5%;
 `;
 
-
 function PageDefault({ children }) {
   return (
     <>
       <Menu />
-        <Main>
-          {children}
-        </Main>
+      <Main>
+        {children}
+      </Main>
       <Footer />
     </>
   );

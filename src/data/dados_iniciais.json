@@ -4,7 +4,7 @@
       "titulo": " ",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#7F1C64",
-      "image": "http://localhost:3000/static/media/nerd.9814d62b.png",
+      "image": "https://dmsdebflix.vercel.app/static/media/nerd.9814d62b.png",
       "link_extra": {
         "text": "Momento Nerd",
         "url": ""
@@ -60,7 +60,7 @@
     {
       "titulo": " ",
       "cor": "#000c2c",
-      "image": "http://localhost:3000/static/media/animal.02447de9.png",
+      "image": "https://dmsdebflix.vercel.app/static/media/animal.02447de9.png",
       "link_extra": {
         "text": "Fofuras de Animais",
         "url": ""
@@ -87,7 +87,7 @@
     {
       "titulo": " ",
       "cor": "#7F1C64",
-      "image": "http://localhost:3000/src/assets/img/jogo.6fff7b97.png",
+      "image": "https://dmsdebflix.vercel.app/src/assets/img/jogo.6fff7b97.png",
       "link_extra": {
         "text": "Games",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
@@ -118,7 +118,7 @@
     {
       "titulo": " ",
       "cor": "#000c2c",
-      "image": "http://localhost:3000/static/media/filme.ff4b508d.png",
+      "image": "https://dmsdebflix.vercel.app/static/media/filme.ff4b508d.png",
       "link_extra": {
         "text": "Trailers e Filmes"
       },

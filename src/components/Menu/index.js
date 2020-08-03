@@ -13,7 +13,7 @@ function Menu() {
     <MenuWrapper className="Menu">
       <Link to="/">
         <LogoImage src={Logo} alt="Debflix Logo" />
-        <LogoImage style={{ height: 80 }} src={Husky} alt="Debflix Logo" />
+        <LogoImage style={{ height: 70 }} src={Husky} alt="Debflix Logo" />
 
       </Link>
       <ButtonLink as={Link} to="/cadastro/video">

@@ -2,85 +2,180 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Animais",
-      "cor": "#6BD1FF",
-      "image": "https://dmsdebflix.vercel.app/static/media/husky2.4ff8b23d.gif",
-      "link_extra": {
-        "text": "Divirta-se com esses lindos",
-        "url": ""
-      }
-    },
-    {
-      "id": 2,
-      "titulo": "Músicas",
-      "cor": "#6BD1FF",
-      "image":"",
-      "link_extra": {
-        "text": "Relaxe um pouco",
-        "url": ""
-      }
-    },
-    {
-      "id": 3,
-      "titulo": "Filmes",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Trailers",
-        "url": ""
-      }
-    },
-    {
-      "id": 4,
-      "titulo": "Programação",
-      "cor": "#6BD1FF",
+      "titulo": " ",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#7F1C64",
+      "image": "https://dmsdebflix.vercel.app/static/media/nerd.9814d62b.png",
       "link_extra": {
         "text": "Momento Nerd",
         "url": ""
-      }
-    }
-  ],
-  "videos": [
-    {
-      "id": 1,
-      "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      },
+      "videos": [              
+        {
+          "id": 1,
+          "categoriaId": 1,
+          "titulo": "Recriando Pipefy do zero (com drag n' drop) | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=awRtgpRsdTQ"
+        }, 
+        {
+          "id": 2,
+          "categoriaId": 1,
+          "titulo": "Iniciando no ReactJS | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=7A4UQGrFU9Q&list=PL85ITvJ7FLoiuaKgHFYgrhZDwXOUEaxWI"
+        },  
+        { 
+          "id": 3,
+          "categoriaId": 1,
+          "titulo": "Recriando a Interface do Discord com ReactJS | UI Clone",
+          "url": "https://www.youtube.com/watch?v=x4FdZd2-_uU"
+        },        
+
+        {
+          "id": 4,
+          "categoriaId": 1,
+          "titulo": "Desvendando o Redux na prática | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=u99tNt3TZf8"
+        },
+        {
+          "id": 5,
+          "categoriaId": 1,
+          "titulo": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "id": 6,
+          "categoriaId": 1,
+          "titulo": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        },
+        {
+          "id": 7,
+          "categoriaId": 1,
+          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "id": 8,
+          "categoriaId": 1,
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        { 
+          "id": 9,
+          "categoriaId": 1,
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        }      
+      ]
     },
     {
       "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "titulo": " ",
+      "cor": "#000c2c",
+      "image": "https://dmsdebflix.vercel.app/static/media/animal.02447de9.png",
+      "link_extra": {
+        "text": "Fofuras de Animais",
+        "url": ""
+      },
+      "videos": [
+        {
+          "id": 10,
+          "categoriaId": 2,
+          "titulo": "Golden Retriever",
+          "url": "https://www.youtube.com/watch?v=xv8lYjkk7Cc&t=4s"
+        },
+        {
+          "id": 11,
+          "categoriaId": 2,
+          "titulo": "Labrador",
+          "url": "https://www.youtube.com/watch?v=WDlu1OhvYBM"
+        },
+        {
+          "id": 12,
+          "categoriaId": 2,
+          "titulo": "Husky, o Cachorro da Neve",
+          "url": "https://www.youtube.com/watch?v=uXHV2jobOOs"
+        }
+      ]
     },
     {
-      "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "id":3,
+      "titulo": " ",
+      "cor": "#7F1C64",
+      "image": "https://dmsdebflix.vercel.app/static/media/jogo.6fff7b97.png",
+      "link_extra": {
+        "text": "Games",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "id": 13,
+          "categoriaId": 3,
+          "titulo": "Alex Kidd Remake",
+          "url": "https://www.youtube.com/watch?v=QdFLB2cZ92Q"
+        },
+        {
+          "id": 14,
+          "categoriaId": 3,
+          "titulo": "Audition",
+          "url": "https://youtu.be/lIHY67K8JxU"
+        },
+        {
+          "id": 15,
+          "categoriaId": 3,
+          "titulo": "Mario Kart",
+          "url": "https://www.youtube.com/watch?v=qktchbR-EX4"
+        },
+        {
+          "id": 16,
+          "categoriaId": 3,
+          "titulo": "Pato Donald",
+          "url": "https://www.youtube.com/watch?v=_6z_2K-aWt0"
+        },
+        {
+          "id": 17,
+          "categoriaId": 3,
+          "titulo": "Mickey Mouse",
+          "url": "https://www.youtube.com/watch?v=u_YuJtVZV7k"
+        }
+      ]
     },
     {
       "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-    },
-    {
-      "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": " ",
+      "cor": "#000c2c",
+      "image": "https://dmsdebflix.vercel.app/static/media/filme.ff4b508d.png",
+      "link_extra": {
+        "text": "Trailers e Filmes"
+      },
+      "videos": [
+
+        {
+          "id": 18,
+          "categoriaId": 4,
+          "titulo": "Superação O Milagre da Fé",
+          "url": "https://www.youtube.com/watch?v=o2bX_c97GSI&list=PLagf6TntF3aoHdZKnw3VaUhpjQh6Tib_j"
+        },
+        {
+          "id": 19,
+          "categoriaId": 4,
+          "titulo": "Cartas para DEUS",
+          "url": "https://www.youtube.com/watch?v=b_zRq-O9rYs"
+        },        
+        {
+          "id": 20,
+          "categoriaId": 4,
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {          
+          "id": 21,
+          "categoriaId": 4,
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        }
+      ]
     }
+    
   ]
 }

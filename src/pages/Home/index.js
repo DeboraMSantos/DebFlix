@@ -10,6 +10,7 @@ const HomeWrapper = styled.div`
 background: var(--grayDark); 
 `;
 function Home() {
+  //http://localhost:8080/categorias?_embed=videos
   return (
     <HomeWrapper>
       <Menu />

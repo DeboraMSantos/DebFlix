@@ -15,8 +15,11 @@ function Carousel({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
+        
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <img alt="aaa" style={{ height: 35 }} src="https://dmsdebflix.vercel.app/static/media/husky2.4ff8b23d.gif" />
             {categoryTitle}
+       
           </Title>
           {categoryExtraLink && 
             <ExtraLink href={categoryExtraLink.url} target="_blank">

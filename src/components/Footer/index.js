@@ -1,10 +1,11 @@
 import React from 'react';
-import FooterBase from './styles';
+import FooterBase, { LogoImage } from './styles';
+import Husky2 from '../../assets/img/husky2.gif';
 
 function Footer() {
   return (
     <FooterBase>
-
+    <LogoImage style={{height:80}} src={Husky2} alt="Debflix Logo" />
       <p>
         Criado por
         <strong> Débora Moura dos Santos </strong>
@@ -16,6 +17,9 @@ function Footer() {
         <br />
         <a target="LinkedinDebora" href="https://www.linkedin.com/in/d%C3%A9bora-moura-dos-santos-57813335/">Conheça o meu Linkedin</a>
       </p>
+
+
+
     </FooterBase>
   );
 }

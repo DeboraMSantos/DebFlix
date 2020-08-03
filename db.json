@@ -2,14 +2,40 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Animais",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Divirta-se com esses lindos",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Músicas",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Relaxe um pouco",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Filmes",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Trailers",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Programação",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Momento Nerd",
+        "url": ""
       }
     }
-   
   ],
   "videos": [
     {

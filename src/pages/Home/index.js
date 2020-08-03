@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import Menu from '../../components/Menu';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
@@ -14,14 +14,15 @@ function Home() {
     <HomeWrapper>
       <Menu />
 
-      <BannerMain 
+      <BannerMain
         url={dadosIniciais.categorias[0].videos[0].url}
       />
 
-      {dadosIniciais.categorias.map((cat, i) =>
-        i === 1 ? 
-       
-        <Carousel key={i} ignoreFirstVideo category={cat} /> : <Carousel key={i} category={cat} />
+      {dadosIniciais.categorias.map((cat, i) => 
+      i === 1 ?
+      <Carousel key={i} ignoreFirstVideo category={cat} /> 
+      : 
+      <Carousel key={i} category={cat} />
 
       )}
 

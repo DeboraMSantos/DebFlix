@@ -4,6 +4,7 @@
       "id": 1,
       "titulo": "Animais",
       "cor": "#6BD1FF",
+      "image": "https://dmsdebflix.vercel.app/static/media/husky2.4ff8b23d.gif",
       "link_extra": {
         "text": "Divirta-se com esses lindos",
         "url": ""
@@ -13,6 +14,7 @@
       "id": 2,
       "titulo": "Músicas",
       "cor": "#6BD1FF",
+      "image":"",
       "link_extra": {
         "text": "Relaxe um pouco",
         "url": ""

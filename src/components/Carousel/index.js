@@ -10,6 +10,8 @@ function Carousel({
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
+  const categoryImage = category.image;
+  
   const videos = category.videos;
   return (
     <VideoCardGroupContainer>
@@ -17,7 +19,7 @@ function Carousel({
         <>
         
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
-          <img alt="aaa" style={{ height: 35 }} src="https://dmsdebflix.vercel.app/static/media/husky2.4ff8b23d.gif" />
+          <img alt="icone categoria" style={{ height: 35 }} src={categoryImage} />
             {categoryTitle}
        
           </Title>

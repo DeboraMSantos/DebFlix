@@ -1,52 +1,61 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
-  
-  background: red;
-  /* border-radius: 30px 10px 0px 0px; */
   border-radius: 50px 0px 0px 0px;
   display: inline-block;
   font-size: 30px;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  line-height: 1;
   margin-bottom: -20px;
-  min-width: 130px;
+  min-width: 100px;
   padding: 20px;
 
 
   @media (max-width: 800px) {
     font-size: 18px;
     max-width: 150px;
-    padding: 10px;
+    padding-bottom: 40px;
+
   }
 `;
 
 export const Imagem = styled.img`
   height: 80px;
-  
-`;
+
+
+  `;
 
 export const ExtraLink = styled.a`
+
+  border-radius: 10px 0px;
+  display: inline-block;
   font-size: 40px;
   margin-left: -20px;
-  display: inline-block;
-  border-radius: 10px 0px;
-  background: black;
   padding: 10px;
+  text-align: right;
   text-decoration: none;
- 
   transition: opacity .3s;
   &:hover,
   &:focus {
     opacity: .5;
   }
-  @media (max-width: 800px) {
-    display: inline;
-    font-size: 30px;
-    margin-left: -20px;
-    padding: 20;
+  @media (max-width: 800px){ 
+    bottom: 0;  
+    font-size: 20px;
+    left: 0;
+    min-width: 200px;
+    padding: 20px; 
+    position: relative;  
+  }
+  @media (max-width: 350px) {
+    bottom: 0;  
+    font-size: 13px;
+    left: 0;
+    min-width: 150px;
+    padding: 20px; 
+    position: relative;  
+
   }
 `;
 

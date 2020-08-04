@@ -28,7 +28,11 @@ export const VideoCardContainer = styled.a`
   &:not(:first-child) {
     margin-left: 20px;
   }
-
+  @media (max-width: 800px) {
+    flex: 0 0 250px;
+  height: 150px;
+  width: 250px;
+  }
 `;
 export const SpanVideoCardContainerText = styled.span`
   border-bottom-right-radius: 0;
@@ -45,6 +49,11 @@ export const SpanVideoCardContainerText = styled.span`
   transform: translate(0, -30px);
   transition: all .4s;
   z-index: 3;
+  @media (max-width: 800px) {
+    min-height: 40px;
+    border-radius: 0px 0px;
+    font-size: 13px;
+  }
 `;
 
 export const DivLegenda = styled.div`

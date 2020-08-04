@@ -1,28 +1,28 @@
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  border: 2px solid;
-  border-radius: 4px;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-  color: white;
-  flex: 0 0 298px;
-  width: 298px;
-  height: 197px;
-  background-image: ${({ url }) => `url(${url})`}; 
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
   align-items: flex-end;
+  background-image: ${({ url }) => `url(${url})`}; 
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px 10px;
+  border: 4px solid;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 298px;
+  height: 197px;
+  overflow: hidden;
   padding: 16px;
+  position: relative;
+  text-decoration: none;
   transition: opacity .3s;
+  width: 298px;
   &:hover,
   &:focus {
     opacity: .3;
     width: 400px;
+    border-radius: 40px;   
   }
 
   &:not(:first-child) {
@@ -32,9 +32,10 @@ export const VideoCardContainer = styled.a`
 `;
 export const SpanVideoCardContainerText = styled.span`
   border-bottom-right-radius: 0;
-  border-radius: 30px 0px;
+  border-radius: 40px 0px;
   bottom: 0;
   left: 0;
+  min-height: 70px;
   opacity: 0;
   padding: 15px;
   pointer-events: none;
@@ -44,7 +45,6 @@ export const SpanVideoCardContainerText = styled.span`
   transform: translate(0, -30px);
   transition: all .4s;
   z-index: 3;
-  min-height: 70px;
 `;
 
 export const DivLegenda = styled.div`

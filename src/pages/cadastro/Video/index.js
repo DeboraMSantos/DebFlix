@@ -55,15 +55,19 @@ function CadastroVideo() {
           (categoria) => categoria.titulo === values.categoria,
         );
 
-        videosRepository.create({
-          titulo: values.titulo,
-          url: values.url,
-          categoriaId: categoriaEscolhida.id,
-        })
-          .then(() => {
-            console.log('Cadastrou com sucesso!');
-            history.push('/');
-          });
+        if (categoriaEscolhida) {
+          videosRepository.create({
+            titulo: values.titulo,
+            url: values.url,
+            categoriaId: categoriaEscolhida.id,
+          })
+            .then(() => {
+              console.log('Cadastrou com sucesso!');
+              history.push('/');
+            }).catch((err) => { console.log(err); });
+        } else {
+          alert('categoria incorreta');
+        }
       }}
       >
         <FormField

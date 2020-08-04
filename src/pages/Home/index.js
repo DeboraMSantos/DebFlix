@@ -8,7 +8,6 @@ import categoriasRepository from '../../repositories/categorias';
 import PageDefault from '../../components/PageDefault';
 import Loading from '../../assets/img/loading.gif';
 import { LogoImage } from '../../components/Menu/style';
-import categorias from '../../repositories/categorias';
 
 const HomeWrapper = styled.div`
 background: var(--grayDark);

@@ -23,7 +23,6 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
-import Menu from '../../../components/Menu';
 
 function CadastroVideo() {
   const history = useHistory();

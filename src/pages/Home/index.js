@@ -14,6 +14,7 @@ const HomeWrapper = styled.div`
 background: var(--grayDark);
 padding-top: 10px;
 `;
+
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
   useEffect(() => {
@@ -41,7 +42,7 @@ function Home() {
         </>
         )}
 
-      {dadosIniciais.length > 0
+      {dadosIniciais.length > 40
       && (
       <>
         <HomeWrapper>

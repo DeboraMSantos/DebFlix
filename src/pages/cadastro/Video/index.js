@@ -54,7 +54,7 @@ function CadastroVideo() {
           (categoria) => categoria.titulo === values.categoria,
         );
 
-        if (categoriaEscolhida) {
+        if (categoriaEscolhida && values.titulo && values.url) {
           videosRepository.create({
             titulo: values.titulo,
             url: values.url,
@@ -65,7 +65,7 @@ function CadastroVideo() {
               history.push('/');
             }).catch((err) => { console.log(err); });
         } else {
-          alert('categoria incorreta');
+          alert('categoria incorreta ou campo vazio');
         }
       }}
       >

@@ -5,13 +5,14 @@ export const Title = styled.h3`
   font-weight: normal;
   font-size: 30px;
   line-height: 1;
-  margin-bottom: -8px;
+  min-width: 130px;
+  
+  margin-bottom: -20px;
   display: inline-block;
   padding: 20px;
   background: red;
   line-height: 1;
   border-radius: 30px 10px 0px 0px;
-
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
@@ -19,9 +20,13 @@ export const Title = styled.h3`
   }
 `;
 
+export const Imagem = styled.img`
+  height: 80px;
+`;
+
 export const ExtraLink = styled.a`
   margin-left: 20px;
-  font-size: 35px;
+  font-size: 40px;
   text-decoration: none;
   transition: opacity .3s;
   &:hover,
@@ -30,7 +35,7 @@ export const ExtraLink = styled.a`
   }
   @media (max-width: 800px) {
     display: inline;
-    font-size: 15px;
+    font-size: 30px;
     margin-left: 20px;
   }
 `;
@@ -60,5 +65,3 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 5%;
   margin-bottom: 16px;
 `;
-
-

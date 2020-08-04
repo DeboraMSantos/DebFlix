@@ -22,11 +22,10 @@ function Carousel({
 
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             <Imagem alt="icone categoria" src={categoryImage} />
-
           </Title>
           {categoryExtraLink
             && (
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
+            <ExtraLink href={categoryExtraLink.url} style={{ backgroundColor: categoryColor || 'red' }} target="_blank">
               {categoryTitle}
             </ExtraLink>
             )}

@@ -10,6 +10,10 @@ import Loading from '../../assets/img/loading.gif';
 import { LogoImage } from '../../components/Menu/style';
 import categorias from '../../repositories/categorias';
 
+const HomeWrapper = styled.div`
+background: var(--grayDark);
+padding-top: 10px;
+`;
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
   useEffect(() => {
@@ -40,8 +44,8 @@ function Home() {
       {dadosIniciais.length > 0
       && (
       <>
-        <PageDefault paddingAll={0}>
-
+        <HomeWrapper>
+          <Menu />
           {dadosIniciais.map((categoria, indice) => {
             if (indice === 0) {
               return (
@@ -64,8 +68,8 @@ function Home() {
               />
             );
           })}
-
-        </PageDefault>
+          <Footer />
+        </HomeWrapper>
       </>
       )}
     </>

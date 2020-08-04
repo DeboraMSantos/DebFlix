@@ -1,22 +1,25 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
+  
+  background: red;
+  /* border-radius: 30px 10px 0px 0px; */
+  border-radius: 50px 0px 0px 0px;
+  display: inline-block;
+  font-size: 30px;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
   line-height: 1;
-  min-width: 130px;
-  
+  line-height: 1;
   margin-bottom: -20px;
-  display: inline-block;
+  min-width: 130px;
   padding: 20px;
-  background: red;
-  line-height: 1;
-  border-radius: 30px 10px 0px 0px;
+
+
   @media (max-width: 800px) {
     font-size: 18px;
-    padding: 10px;
     max-width: 150px;
+    padding: 10px;
   }
 `;
 
@@ -26,9 +29,14 @@ export const Imagem = styled.img`
 `;
 
 export const ExtraLink = styled.a`
-  margin-left: 20px;
   font-size: 40px;
+  margin-left: -20px;
+  display: inline-block;
+  border-radius: 10px 0px;
+  background: black;
+  padding: 10px;
   text-decoration: none;
+ 
   transition: opacity .3s;
   &:hover,
   &:focus {
@@ -37,7 +45,8 @@ export const ExtraLink = styled.a`
   @media (max-width: 800px) {
     display: inline;
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: -20px;
+    padding: 20;
   }
 `;
 

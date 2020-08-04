@@ -28,7 +28,7 @@ function CadastroCategoria() {
       });
   }, []);
   return (
-    <PageDefault>
+    <PageDefault paddingAll="100px">
       <h1>
         Cadastro de Categoria:
         {values.nome}

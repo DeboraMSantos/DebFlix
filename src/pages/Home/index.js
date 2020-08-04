@@ -42,7 +42,7 @@ function Home() {
         </>
         )}
 
-      {dadosIniciais.length > 40
+      {dadosIniciais.length > 0
       && (
       <>
         <HomeWrapper>

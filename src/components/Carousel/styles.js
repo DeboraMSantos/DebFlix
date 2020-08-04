@@ -22,6 +22,7 @@ export const Title = styled.h3`
 
 export const Imagem = styled.img`
   height: 80px;
+  
 `;
 
 export const ExtraLink = styled.a`

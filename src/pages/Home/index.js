@@ -41,7 +41,6 @@ function Home() {
       && (
       <>
         <PageDefault paddingAll={0}>
-          <Menu />
 
           {dadosIniciais.map((categoria, indice) => {
             if (indice === 0) {

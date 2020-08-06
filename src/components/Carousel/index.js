@@ -22,13 +22,9 @@ function Carousel({
 
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             <Imagem alt="icone categoria" src={categoryImage} />
+            {categoryTitle}
           </Title>
-          {categoryExtraLink
-            && (
-            <ExtraLink href={categoryExtraLink.url} style={{ backgroundColor: categoryColor || 'red' }} target="_blank">
-              {categoryTitle}
-            </ExtraLink>
-            )}
+
         </>
       )}
       <Slider>

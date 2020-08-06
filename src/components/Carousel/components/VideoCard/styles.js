@@ -1,5 +1,39 @@
 import styled from 'styled-components';
 
+export const VideoPlay = styled.video`
+  align-items: flex-end;
+  background-image: ${({ url }) => `url(${url})`}; 
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px 10px;
+  border: 4px solid;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 298px;
+  height: 197px;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+  text-decoration: none;
+  transition: opacity .3s;
+  width: 298px;
+  &:hover,
+  &:focus {
+    opacity: .3;
+    width: 400px;
+    border-radius: 40px;   
+  }
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+  @media (max-width: 800px) {
+    flex: 0 0 250px;
+  height: 150px;
+  width: 250px;
+  }
+`;
 export const VideoCardContainer = styled.a`
   align-items: flex-end;
   background-image: ${({ url }) => `url(${url})`}; 
@@ -37,7 +71,7 @@ export const VideoCardContainer = styled.a`
 export const SpanVideoCardContainerText = styled.span`
   border-bottom-right-radius: 0;
   border-radius: 40px 0px;
-  bottom: 0;
+  top: 0;
   left: 0;
   min-height: 70px;
   opacity: 0;

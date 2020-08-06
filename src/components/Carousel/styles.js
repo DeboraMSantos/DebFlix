@@ -1,23 +1,20 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
-  border-radius: 50px 0px 0px 0px;
-  display: inline-block;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: normal;
+  border-radius: 50px 150px 0px 0px;
+  display: inline;
   line-height: 1;
-  margin-bottom: -20px;
-  min-width: 100px;
+  min-width: 300px;
   padding: 20px;
+  font: 1em sans-serif;
 
-
+/* 
   @media (max-width: 800px) {
     font-size: 18px;
     max-width: 150px;
     padding-bottom: 40px;
 
-  }
+  } */
 `;
 
 export const Imagem = styled.img`

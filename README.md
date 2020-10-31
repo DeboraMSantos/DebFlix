@@ -1,12 +1,9 @@
 
 # Seja bem-vindo(a) ao Debflix #
 
-![Happy](https://github.com/DeboraMSantos/web/blob/master/src/images/print-happy.jpeg)
-
-O projeto ainda não esta finalizado.
+O projeto ainda não esta totalmente finalizado.
 
 O DebFlix é como uma NETFLIX porém com meus vídeos preferidos. 
-
 
 [Link para visualizar o projeto](https://dmsdebflix.vercel.app/)
 

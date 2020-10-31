@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Seja bem-vindo(a) ao Debflix #
 
-In the project directory, you can run:
+![Happy](https://github.com/DeboraMSantos/web/blob/master/src/images/print-happy.jpeg)
 
-### `npm start`
+O projeto ainda não esta finalizado.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O DebFlix é como uma NETFLIX porém com meus vídeos preferidos. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+[Link para visualizar o projeto](https://dmsdebflix.vercel.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## <code><img src="https://img.icons8.com/dusk/2x/handshake.png" width="50px" height="50px" align="center"></code> Agradecimento ##
+**Agradeço primeiramente a Deus, por ter me mostrado a Imersão da Alura.**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Segundamente a Alura por poder participar de um projeto desses e totalmente gratuito.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<a target="_blank" href="https://www.linkedin.com/in/d%C3%A9bora-moura-dos-santos-57813335/">
+  <img align="center" alt="LinkdeIN" height="80" src="https://img.icons8.com/bubbles/2x/linkedin.png" />
+</a>
+<a target="_blank" href="https://www.instagram.com/deboramouradossantos/">
+  <img align="center" alt="Instagram" height="80" src="https://img.icons8.com/clouds/2x/instagram-new--v2.png" />
+</a> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
